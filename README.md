@@ -9,10 +9,11 @@ Este é um emocionante jogo de adivinhação desenvolvido em React, onde os joga
 
 Principais recursos:
 
-Interface intuitiva e responsiva, criada com React para uma experiência de usuário fluida em diferentes dispositivos.
-Possibilidade de escolher entre diferentes níveis de dificuldade, desafiando tanto jogadores casuais quanto aqueles em busca de desafios mais complexos.
-Banco de palavras expansível, permitindo uma variedade de palavras secretas para manter o jogo interessante e dinâmico.
-Sistema de pontuação para acompanhar o desempenho dos jogadores e incentivar a competição saudável entre amigos.
+* Interface intuitiva e responsiva, criada com React para uma experiência de usuário fluida em diferentes dispositivos.
+* Possibilidade de escolher entre diferentes níveis de dificuldade, desafiando tanto jogadores casuais quanto aqueles em busca de desafios mais complexos.
+* Banco de palavras expansível, permitindo uma variedade de palavras secretas para manter o jogo interessante e dinâmico.
+* Sistema de pontuação para acompanhar o desempenho dos jogadores e incentivar a competição saudável entre amigos.
+  
 Junte-se a nós e teste suas habilidades de adivinhação no "Game Secret Word React"!
 
    ##
