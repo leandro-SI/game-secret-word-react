@@ -16,6 +16,9 @@ Principais recursos:
   
 Junte-se a nós e teste suas habilidades de adivinhação no "Game Secret Word React"!
 
+- Página Inicial
+![Alt Text](./public/telas/inicial.jpg)
+
    ##
 
 ## Prerequisites
