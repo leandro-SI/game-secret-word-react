@@ -84,12 +84,12 @@ function App() {
       setGuessedLetters((actualGuessedLetters) => [
         ...actualGuessedLetters,
         normalizeLetter
-      ])
+      ]);
     } else {
       setWrongLetters((actualWrongLetters) => [
         ...actualWrongLetters,
         normalizeLetter
-      ])
+      ]);
 
       setGuesses((actualGuesses) => actualGuesses - 1)
     }
@@ -133,7 +133,7 @@ function App() {
         guesses={guesses}
         score={score}
       />}
-      {gameStage === 'end' && <GameOver retry={retry} />}
+      {gameStage === 'end' && <GameOver retry={retry} score={score} />}
     </div>
   );
 }
