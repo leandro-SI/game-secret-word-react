@@ -71,9 +71,38 @@ function App() {
   }
 
   const verifyLetter = (letter) => {
-    console.log(letter)
     
+    const normalizeLetter = letter.toLowerCase();
+
+    // check if letter has already been utilized
+    if(guessedLetters.includes(normalizeLetter) || wrongLetters.includes(normalizeLetter)) {
+      return;
+    }
+
+    // push guessed letter or remove a guess
+    if (letters.includes(normalizeLetter)) {
+      setGuessedLetters((actualGuessedLetters) => [
+        ...actualGuessedLetters,
+        normalizeLetter
+      ])
+    } else {
+      setWrongLetters((actualWrongLetters) => [
+        ...actualWrongLetters,
+        normalizeLetter
+      ])
+
+      setGuesses((actualGuesses) => actualGuesses - 1)
+    }
+
   }
+
+  useEffect(() => {
+
+    if (guesses <= 0) {
+      setGameStage(stages[2].name)
+    }
+
+  }, [guesses])
 
   const retry = () => {
     setGameStage(stages[0].name)
