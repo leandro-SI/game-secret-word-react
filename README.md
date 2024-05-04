@@ -24,6 +24,11 @@ Junte-se a nós e teste suas habilidades de adivinhação no "Game Secret Word R
 - Tela de jogo
 ![Alt Text](./public/telas/jogo.jpg)
 
+   ##
+
+- Tela fim de jogo
+![Alt Text](./public/telas/fim.jpg)
+
 ## Prerequisites
 
 ✔ - Node 18.10.0
